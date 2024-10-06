@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="CWA Help Desk Appointment Form">
+        <meta name="keywords" content="Help Desk, Appointment, Form">
+        <meta name="author" content="Ivan Ngu">
+        <title>Login / Register</title>
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/media.css">
+        <link rel="stylesheet" href="./style/form.css">
+        <link rel="stylesheet" href="./style/enhancement.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="main.html"><img src="./style/images/logo.png" alt="Logo"></a>
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label class="menu-icon" for="menu-toggle">&#9776;</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="classify.html">Classification</a></li>
+                    <li class="dropdown">
+                        <a href="#">Resources</a>
+                        <div class="dropdown-nav">
+                            <a href="tutorial.html">Tutorial</a>
+                            <a href="tools.html">Tools</a>
+                            <a href="care.html">Care</a>
+                            <a href="identify.html">Identify</a>
+                        </div>
+                    </li>
+                    <li><a href="contribute.html">Contribute</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="register-container">
+            <section class="register-form">
+                <h1>Register</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="JACK" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="PIRATE" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" id="pwd" name="pwd" required>
+                    </div>
+                    <button type="submit" class="register-button">Confrim</button>
+                </form>
+            </section>
+        </section>
+        <footer>
+            <section class="ft-main">
+                <div class="ft-main-item">
+                    <h2 class="ft-title">Navigate</h2>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="contribute.html">Contribute</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </div>
+                <div class="ft-main-item">
+                    <h2 class="ft-title">Resources</h2>
+                    <ul>
+                        <li><a href="care.html">Care</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                        <li><a href="tutorial.html">Tutorial</a></li>
+                    </ul>
+                </div>
+                <div class="ft-main-item">
+                    <h2 class="ft-title">Classification</h2>
+                    <ul>
+                        <li><a href="classify.html#dipterocarpaceae">Dipterocarpaceae</a></li>
+                        <li><a href="classify.html#lauraceae">Lauraceae</a></li>
+                        <li><a href="classify.html#burseraceae">Burseraceae</a></li>
+                    </ul>
+                </div>
+                <div class="ft-main-item">
+                    <h2 class="ft-title"><a href="identify.html">Identify</a></h2>
+                    <ul>
+                        <li><a href="identify.html#family">Family</a></li>
+                        <li><a href="identify.html#genus">Genus</a></li>
+                        <li><a href="identify.html#species">Species</a></li>
+                    </ul>
+                </div>
+                <div class="ft-main-item">
+                    <h2 class="ft-title">About Us</h2>
+                    <ul>
+                        <li><a href="porfile.html">The Team</a></li>
+                        <li><a href="main.html#about_us">Our Vision</a></li>
+                    </ul>
+                </div>
+            </section>
+            <p class="ft-copy">&copy; 2024 DaFwiedPotato. All rights reserved.</p>
+        </footer>
+        <a href="#top" class="top_button">
+            <img src="./style/images/leaf.png" alt="Back to top" class="leaf_image">
+            <span class="text">Back to top</span>
+        </a>
+    </body>
+</html>
